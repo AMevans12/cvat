@@ -14,6 +14,7 @@ import Spin from 'antd/lib/spin';
 import { DisconnectOutlined } from '@ant-design/icons';
 import Space from 'antd/lib/space';
 import Text from 'antd/lib/typography/Text';
+import AnnotationAnalyticsPage from 'components/annotation-analytics/annotation-analytics-page';
 
 import LogoutComponent from 'components/logout-component';
 import LoginPageContainer from 'containers/login-page/login-page';
@@ -568,6 +569,7 @@ class CVATApplication extends React.PureComponent<CVATAppProps & RouteComponentP
                                         <Route exact path='/tasks/:id' component={TaskPageComponent} />
                                         <Route exact path='/tasks/:tid/quality-control' component={QualityControlPage} />
                                         <Route exact path='/tasks/:tid/analytics' component={AnalyticsReportPage} />
+                                        <Route exact path='/tasks/:id/class-counts' component={AnnotationAnalyticsPage} />
                                         <Route exact path='/tasks/:tid/consensus' component={ConsensusManagementPage} />
                                         <Route exact path='/tasks/:id/jobs/create' component={CreateJobPage} />
                                         <Route exact path='/tasks/:id/guide' component={AnnotationGuidePage} />
