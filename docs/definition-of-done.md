@@ -1,0 +1,1 @@
+Endpoint counts CVAT shapes, not COCO annotations. 3,541 COCO annotations become 3,953 shapes because multi-part polygons import as one shape per part. Endpoint total 3,953, person 1,217, toothbrush 1, all match the expected values computed from the COCO file.
