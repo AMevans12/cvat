@@ -1,0 +1,14 @@
+HTTP/1.1 404 Not Found
+Allow: GET, HEAD, OPTIONS
+Content-Length: 45
+Content-Type: application/vnd.cvat+json
+Cross-Origin-Opener-Policy: same-origin
+Date: Thu, 29 Oct 2026 05:12:33 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Vary: Accept, Origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Request-Id: 75cd0a21-74a0-49f7-8cc8-a56be14e2b19
+
+{"detail":"No Task matches the given query."}
