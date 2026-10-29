@@ -76,7 +76,6 @@ export default function AnnotationAnalyticsPage(): JSX.Element {
                         { value: 'mask', label: 'Mask' },
                         { value: 'polyline', label: 'Polyline' },
                         { value: 'points', label: 'Points' },
-                        { value: 'points', label: 'Points' },
                         { value: 'ellipse', label: 'Ellipse' },
                         { value: 'cuboid', label: 'Cuboid' },
                         { value: 'skeleton', label: 'Skeleton' },
